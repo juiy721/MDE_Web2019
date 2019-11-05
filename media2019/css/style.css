@@ -5,7 +5,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    /* background-image: url(img/mv.png); */
+    background: black;
 }
 
 .loading__img {
@@ -24,7 +24,7 @@
 
 body {
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'Meiryo', "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", -apple-system, BlinkMacSystemFont, Verdana, Roboto, "Droid Sans", sans-serif;
-	/* background-image: url(img/mv.png); */
+	background-color: black;
 	margin: 0;
 }
 
@@ -89,8 +89,8 @@ h1 {
 
 /* -- intro -- */
 .intro-img-container {
-	/* line-height: 0; */
 	width: 100%;
+	height: 100%;
 }
 
 .intro-img {
