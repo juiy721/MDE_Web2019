@@ -1,0 +1,151 @@
+.loading {
+	position: fixed;
+    z-index: 200;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background-image: url(img/mv.png); */
+}
+
+.loading__img {
+	position: absolute;
+    text-align: center;
+    max-width: 50%;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%,-50%);
+}
+
+.media {
+	width: 200px;
+}
+
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'Meiryo', "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", -apple-system, BlinkMacSystemFont, Verdana, Roboto, "Droid Sans", sans-serif;
+	/* background-image: url(img/mv.png); */
+	margin: 0;
+}
+
+/* -- フェードイン -- */
+.fadein {
+	opacity: 0.1;
+	transform: translate(0, 70px);
+	transition: all 800ms;
+}
+
+.fadein.scrollin {
+	opacity: 1;
+	transform: translate(0, 0);
+}
+
+/* -- 汎用的なスタイル -- */
+h1 {
+	color: #ffffff;
+	font-size: 24px;
+	line-height: 1.5; /* 36 / 24 */
+	text-indent: 0.5em;
+	margin: 0 0 25px;
+}
+
+.list{
+	margin: 50px 50px 50px 50px;
+	list-style-type: none;
+	overflow: hidden;
+}
+.list li{
+	margin: 50px 20px 50px 20px;
+	float: left;
+	transition: .8s;
+}
+
+/* -- サイト内共通スタイル -- */
+.sw-container {
+	max-width: 480px;
+	margin: 0 auto;
+}
+.sw-gradient {
+	background: -moz-linear-gradient(left, #84304A 50%, #D14978);
+	background: -webkit-linear-gradient(left, #84304A 50%, #D14978);
+	background: linear-gradient(to right, #84304A 50%, #D14978);
+	margin: 0 0 20px;
+	/* background-image: url(sankaku.png); */
+}
+
+.sw-container-inner {
+	padding: 25px;
+}
+.sw-text {
+	color: #ffffff;
+	font-size: 11px;
+	line-height: 1.75; /* 19.25(行間) / 11(フォントサイズ) */
+	margin: 0 0 1.75em 0; /* =font-size この場合*/
+}
+
+.sw-text:last-child {
+	margin: 0;
+}
+
+/* -- intro -- */
+.intro-img-container {
+	/* line-height: 0; */
+	width: 100%;
+}
+
+.intro-img {
+	width: 100%;
+}
+/* -- End .intro -- */
+
+.map-container {}
+.map-container iframe {
+	width: 100%;
+}
+.contact {
+	margin: 0;
+}
+
+/* -- .footer -- */
+.footer {}
+.footer .sw-container-inner {
+	padding: 135px 25px 74px;
+}
+.footer-logo-container {
+	line-height: 0;
+	max-width: 270px;
+	margin: 0 auto 14px;
+}
+
+.footer-logo {
+	width: 100%;
+}
+
+.footer-list {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 180px;
+	padding: 0;
+	margin: 0 auto 105px;
+}
+
+.footer-item {
+	line-height: 0;
+	width: 40px;
+}
+.footer-item-link {}
+.footer-item-img {
+	width: 100%;
+}
+
+.footer-copy {
+	text-align: center;
+}
+/* -- End .footer -- */
+
+#footer {
+	color: #ffffff;
+	font-size: 10px;
+	text-align: center;
+}
