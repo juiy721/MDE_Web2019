@@ -41,7 +41,7 @@ body:before {
 	z-index:-1;
 	width: 100%;
 	height: 100vh;
-	background: url(img/mv.png) center no-repeat;
+	background: url(./img/mv.png) center no-repeat;
 	background-size: 100%;
 	background-position: bottom;
   }
@@ -60,7 +60,7 @@ body:before {
 
 /* -- 汎用的なスタイル -- */
 h1 {
-	color: #ffffff;
+	color: #000000;
 	font-size: 24px;
 	line-height: 1.5; /* 36 / 24 */
 	text-indent: 0.5em;
@@ -83,13 +83,31 @@ h1 {
 	max-width: 480px;
 	margin: 0 auto;
 }
-.sw-gradient {
-	background: -moz-linear-gradient(left, #84304A 50%, #D14978);
-	background: -webkit-linear-gradient(left, #84304A 50%, #D14978);
-	background: linear-gradient(to right, #84304A 50%, #D14978);
+.sw-gradient-red {
+	background: -moz-linear-gradient(left, #E5221E 50%, #ffffff);
+	background: -webkit-linear-gradient(left, #E5221E 50%, #ffffff);
+	background: linear-gradient(to right, #E5221E 50%, #ffffff);
 	margin: 0 0 20px;
+	opacity:0.8;
 	/* background-image: url(sankaku.png); */
 }
+.sw-gradient-yellow {
+	background: -moz-linear-gradient(left, #F5B73A 50%, #ffffff);
+	background: -webkit-linear-gradient(left, #F5B73A 50%, #ffffff);
+	background: linear-gradient(to right, #F5B73A 50%, #ffffff);
+	margin: 0 0 20px;
+	opacity:0.8;
+	/* background-image: url(sankaku.png); */
+}
+.sw-gradient-gray {
+	background: -moz-linear-gradient(left, #9B9B9B 50%, #ffffff);
+	background: -webkit-linear-gradient(left, #9B9B9B 50%, #ffffff);
+	background: linear-gradient(to right, #9B9B9B 50%, #ffffff);
+	margin: 0 0 20px;
+	opacity:0.8;
+	/* background-image: url(sankaku.png); */
+}
+
 
 .sw-container-inner {
 	padding: 25px;
@@ -110,10 +128,16 @@ h1 {
 	line-height: 0;
 }
 
-.intro-img {
+.mvtext {
+	width: 90%;
+	padding: 150px 0px 100px 20px;
+	text-align: left;
+}
+
+.date {
 	width: 50%;
-	padding: 100px 0px 100px 0px;
-	text-align: center;
+	text-align: right;
+	padding: 0px 0px 50px 170px;
 }
 /* -- End .intro -- */
 
