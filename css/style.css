@@ -30,6 +30,7 @@
 body {
 	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", 'Meiryo', "メイリオ", "ＭＳ Ｐゴシック", "MS PGothic", -apple-system, BlinkMacSystemFont, Verdana, Roboto, "Droid Sans", sans-serif;
 	margin: 0;
+	background-color: #ffffff;
 }
 
 body:before {
@@ -41,9 +42,9 @@ body:before {
 	z-index:-1;
 	width: 100%;
 	height: 100vh;
-	background: url(img/mv.png) center no-repeat;
+	background: url(../images/mv.png) center no-repeat;
 	background-size: 100%;
-	background-position: bottom;
+	background-position: top;
   }
 
 /* -- フェードイン -- */
@@ -84,11 +85,11 @@ h1 {
 	margin: 0 auto;
 }
 .sw-gradient-red {
-	background: -moz-linear-gradient(left, #E5221E 50%, #ffffff);
-	background: -webkit-linear-gradient(left, #E5221E 50%, #ffffff);
-	background: linear-gradient(to right, #E5221E 50%, #ffffff);
+	background: -moz-linear-gradient(left, #D94C2D 50%, #ffffff);
+	background: -webkit-linear-gradient(left, #D94C2D 50%, #ffffff);
+	background: linear-gradient(to right, #D94C2D 50%, #ffffff);
 	margin: 0 0 20px;
-	opacity:0.8;
+	opacity:0.9;
 	/* background-image: url(sankaku.png); */
 }
 .sw-gradient-yellow {
@@ -96,7 +97,7 @@ h1 {
 	background: -webkit-linear-gradient(left, #F5B73A 50%, #ffffff);
 	background: linear-gradient(to right, #F5B73A 50%, #ffffff);
 	margin: 0 0 20px;
-	opacity:0.8;
+	opacity:0.9;
 	/* background-image: url(sankaku.png); */
 }
 .sw-gradient-gray {
@@ -104,7 +105,7 @@ h1 {
 	background: -webkit-linear-gradient(left, #9B9B9B 50%, #ffffff);
 	background: linear-gradient(to right, #9B9B9B 50%, #ffffff);
 	margin: 0 0 20px;
-	opacity:0.8;
+	opacity:0.9;
 	/* background-image: url(sankaku.png); */
 }
 
@@ -113,8 +114,8 @@ h1 {
 	padding: 25px;
 }
 .sw-text {
-	color: #301808;
-	font-size: 11px;
+	color: #000000;
+	font-size: 14px;
 	line-height: 1.75; /* 19.25(行間) / 11(フォントサイズ) */
 	margin: 0 0 1.75em 0; /* =font-size この場合*/
 }
@@ -126,18 +127,20 @@ h1 {
 /* -- intro -- */
 .intro-img-container {
 	line-height: 0;
+	/* background-color: #000000; */
+	/* opacity: 0.8; */
+	margin: 130px 0px 110px 0px;
+	text-align: center;
 }
 
-.mvtext {
-	width: 90%;
-	padding: 150px 0px 100px 20px;
-	text-align: left;
+.mvlogo {
+	width: 80%;
+	margin: 0px 0px 110px 0px;
 }
 
 .date {
 	width: 70%;
-	text-align: right;
-	padding: 40px 0px 50px 100px;
+	margin: 100px 0px 0px 60px;
 }
 /* -- End .intro -- */
 
@@ -188,7 +191,8 @@ h1 {
 /* -- End .footer -- */
 
 #footer {
-	color: #ffffff;
+	background-color: #ffffff;
 	font-size: 10px;
 	text-align: center;
+	z-index: 2;
 }

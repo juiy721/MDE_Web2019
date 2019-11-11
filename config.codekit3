@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "31934",
 "files": {
+	"/css/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -30,6 +40,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/date.png": {
+		"ft": 32768,
+		"iS": 80025,
+		"oA": 0,
+		"oAP": "/images/date.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/facebook.png": {
 		"ft": 32768,
 		"iS": 745,
@@ -41,30 +62,21 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/loading.gif": {
-		"ft": 4194304,
-		"iS": 6395,
-		"oA": 0,
-		"oAP": "/images/loading.gif",
+	"/images/loading.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/loading.svg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/logo2019.png": {
 		"ft": 32768,
 		"iS": 416967,
 		"oA": 0,
 		"oAP": "/images/logo2019.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/images/media.png": {
-		"ft": 32768,
-		"iS": 338412,
-		"oA": 0,
-		"oAP": "/images/media.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -82,11 +94,22 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/ogp.png": {
+	"/images/mv.png": {
 		"ft": 32768,
-		"iS": 241475,
+		"iS": 1623387,
 		"oA": 0,
-		"oAP": "/images/ogp.png",
+		"oAP": "/images/mv.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/mvlogo.png": {
+		"ft": 32768,
+		"iS": 208107,
+		"oA": 0,
+		"oAP": "/images/mvlogo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -109,49 +132,6 @@
 		"iS": 1045,
 		"oA": 0,
 		"oAP": "/images/twitter.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/date.png": {
-		"ft": 32768,
-		"iS": 80025,
-		"oA": 0,
-		"oAP": "/img/date.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/loading.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/img/loading.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/img/mv.png": {
-		"ft": 32768,
-		"iS": 1462906,
-		"oA": 0,
-		"oAP": "/img/mv.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/img/mvtext.png": {
-		"ft": 32768,
-		"iS": 437866,
-		"oA": 0,
-		"oAP": "/img/mvtext.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -184,7 +164,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 594809414.49843395,
-	"displayValue": "media2019",
+	"displayValue": "MDE_Web2019",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets-forest",
 	"iconImageWasSetByUser": 0
