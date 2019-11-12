@@ -42,7 +42,7 @@
 		},
 	"/images/date.png": {
 		"ft": 32768,
-		"iS": 80025,
+		"iS": 68331,
 		"oA": 0,
 		"oAP": "/images/date.png",
 		"oF": 0,
@@ -85,7 +85,7 @@
 		},
 	"/images/media_logo.png": {
 		"ft": 32768,
-		"iS": 9485,
+		"iS": 33539,
 		"oA": 0,
 		"oAP": "/images/media_logo.png",
 		"oF": 0,
@@ -116,11 +116,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/images/sankaku.png": {
+	"/images/mvv.png": {
 		"ft": 32768,
-		"iS": 1608375,
+		"iS": 1475480,
 		"oA": 0,
-		"oAP": "/images/sankaku.png",
+		"oAP": "/images/mvv.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
